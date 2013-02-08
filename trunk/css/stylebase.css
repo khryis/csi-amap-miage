@@ -1,0 +1,537 @@
+@charset "utf-8";
+/* Elements generaux */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Times, serif;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+img {
+	border: 0px;
+}
+
+label {
+	padding-top: 2px;
+}
+
+input, select, textarea {
+	/*border: 0px;*/
+	margin: 2px;
+	padding: 1px 0px 1px 5px;
+	font: 12px/16px Verdana, Arial, sans-serif;
+}
+
+.finLigne {
+	clear: both;
+	display: block;
+}
+
+.navAccessiWeb {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: auto;
+	left: -10000px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.colGauche, .colDroite {
+	float: left;
+	display: inline;
+}
+
+.colDroite {
+	float: right;
+}
+
+.noListStyle{
+	list-style: none;
+}
+
+/* Corps de page */
+#CadrePage {
+	margin: auto;
+	padding: 0px 13px 0px 13px;
+	width: 980px;
+	background: #FFFFFF url(../img/fonds/fond-site.jpg) repeat-y;
+}
+
+/* Entete de page */
+#Entete {
+	padding: 10px 15px 0px 10px;
+	height: 22px;
+}
+
+/* Zone de contenu */
+#Contenu {
+	position: relative;
+	min-height: 420px;
+	width: 880px;
+	padding: 0 50px;
+}
+
+* html #Contenu { /* Pour IE6 */
+	height: 220px;
+}
+
+#Contenu h1, #Contenu h2, #Contenu h3, #Contenu p, #Contenu ul {
+	margin: 0px;
+	padding: 4px 0;
+}
+
+/* Menu de gauche */
+#Contenu #MenuGauche {
+	margin-left: 35px;
+	position: absolute;
+	width: 330px;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#Contenu #Menu {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#Contenu #Menu img {
+	display: block;
+}
+
+#Contenu #Menu #Logo{
+	margin: 5px;
+}
+
+#Contenu #Menu p{
+	margin: 25px 0 0 10px;
+	color : #075C71;
+}
+
+#Contenu #Menu img{
+	margin: 16px 0 0;
+}
+
+#Contenu #Menu .menuBox a {
+	display: block;
+	height : 40px;
+	width:176px;
+	text-decoration : none;
+	line-height: 40px;
+}
+
+#Contenu #Menu .menuBox .premierLiMenu a{
+	background : url("../img/pictos/separateur-menu.jpg") no-repeat 100% 0 #022540;
+}
+
+#Contenu #Menu .menuBox .premierLiMenu a:hover, #Contenu #Menu .menuBox .premierLiMenu a.actif{
+	background : #18A5D6;
+}
+
+#Contenu #Menu .menuBox .liMenu a{
+	background : url("../img/pictos/separateur-menu.jpg") no-repeat 100% 0 #022540;
+}
+
+#Contenu #Menu .menuBox .liMenu a:hover, #Contenu #Menu .menuBox .liMenu a.actif{
+	background : #18A5D6;
+	width: 178px;
+	margin-left:-2px;
+}
+	
+#Contenu #Menu .menuBox .dernierLiMenu a{
+	background : #022540;
+}
+#Contenu #Menu .menuBox .dernierLiMenu a:hover, #Contenu #Menu .menuBox .dernierLiMenu a.actif{
+	background : #18A5D6;
+	width: 178px;
+	margin-left:-2px;
+}	
+
+#Contenu #MenuGauche .menuBox ul {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	list-style-type: none;
+}
+
+#Contenu #MenuGauche .menuBox ul li a {
+	padding: 0 6% 0 10%;
+	width: 84%;
+	display: block;
+	text-decoration: none;
+}
+
+#Contenu #MenuGauche .menuBox ul li a:hover, #Contenu #MenuGauche .menuBox ul li a:focus {
+	text-decoration: underline;
+}
+
+#Contenu #MenuGauche .menuBox ul li .actif {
+	background: #68061A;
+}
+
+#Contenu #MenuGauche .menuBox ul li a span, #Contenu #MenuGauche .menuBox ul li a strong {
+	border-top: 1px solid #FFFFFF;
+	padding: 6px 0px 8px 0px;
+	display: block;
+}
+
+#Contenu #MenuGauche .menuBox ul li .menuPremier span, #Contenu #MenuGauche .menuBox ul li .menuPremier strong {
+	border-top: 0px;
+}
+
+/* Bloc specifique */
+/*#Contenu .espaceBox {
+	padding-bottom: 15px;
+	width: 100%;
+}*/
+
+#Contenu .espaceBox {
+	margin-bottom:4px;
+	width: 100%;
+	position:relative;
+}
+
+#Contenu .espaceBox.dernier {
+	margin-bottom:0px;
+	width: 100%;
+}
+
+#Contenu .bgMotif {
+	background: #FFFFFF url(../img/fonds/fond-motif.jpg) no-repeat;
+}
+
+#Contenu .motifCal2 {
+	background-position: 0% -8%;
+}
+
+#Contenu .motifCal3 {
+	background-position: 0% 30%;
+}
+
+#Contenu .motifCal4 {
+	background-position: 0% 56%;
+}
+
+#Contenu .motifCal5 {
+	background-position: 0% 100%;
+}
+
+/* Bloc Edito Home */
+#Contenu .texteHome {
+	padding-left: 30px;
+	width: 580px;
+}
+
+#Contenu .texteHome ul {
+	margin-left: 15px;
+}
+
+#Contenu div.bgBlanc.accroche {
+	padding-bottom: 20px;
+}
+
+#Contenu .homeBox a {
+	top: 35%;
+	left: 40%;
+}
+
+#Contenu p.homeBox{
+	padding-top:0;
+}
+
+#Contenu .homeBox img {
+	display: block;
+}
+
+#Contenu .bgBlanc img {
+	display: block;
+}
+
+#Contenu .bgBlanc .photoAccroche{
+	padding-top:30px;
+}
+
+#Contenu .askingList{
+	margin-top:0px;
+}
+
+#Contenu .askingList li.box{
+	position:relative;
+	list-style: none;
+	margin-left: 4px;
+	display: block;
+	width: 217px;
+	height: 310px;
+}
+
+#Contenu .askingList li.box.premier{
+	position:relative;
+	list-style: none;
+	margin-left: 0px;
+}
+
+#Contenu .askingList li.box li{
+	margin-left: 15px;
+	list-style:disc;
+}
+
+#Contenu .askingList p.title{
+	padding-top:10px;
+	margin-left: -5px;
+}
+
+#Contenu .askingList li.box a.lienFin{
+	position: absolute;
+	bottom: 8px;
+	left:8px;
+}
+
+#Contenu .askingList img.photo{
+	margin: 0 15px;
+}
+
+
+/* Bloc texte sous-titre */
+#Contenu #Award1 .fullTextBox {
+	margin: 0px;
+	padding: 15px;
+	width: auto;
+}
+
+#Contenu .fullTextBox {
+	padding: 15px 15px 40px;
+	width: auto;
+}
+
+#Contenu .fullTextBox.title {
+	padding: 5px 0 0 15px;
+	width: auto;
+}
+
+#Contenu .fullTextBox .title h2{
+	margin-left:-5px;
+	padding-top: 15px;
+}
+
+#Contenu .fullTextBox .title{
+	padding-bottom:10px;
+}	
+
+#Contenu .fullTextBox .pictoBas{
+	position:absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#Contenu .fullTextBox h3, #Contenu .fullTextBox p  {
+	padding: 4px 5px 4px 10px;
+}
+
+#Contenu .fullTextBox ul {
+	padding: 4px 0px 4px 25px;
+}
+
+#Contenu .fullTextBox .awardBox {
+	width: 620px;
+}
+
+#Contenu .fullTextBox .previousBox {
+	width: 620px;
+}
+
+#Contenu .fullTextBox .howBox{
+	width: 650px;
+}
+
+#Contenu .espaceBox .fleche-bas{
+	padding-left:435px;
+	margin-top: -20px;
+	position:absolute;
+}
+
+#Contenu .fullTextBox .previousBox .colGauche {
+	margin-left: 16px;
+}
+
+#Contenu .fullTextBox .previousBox .imgPremier {
+	margin-left: 10px;
+}
+
+#Contenu .fullTextBox .formModifCal1{
+	padding-left:10px;
+	margin-top:-10px;
+}
+
+#Contenu .fullTextBox input.modifCalUpload{
+	padding: 0;
+	margin: 0;
+}
+
+/*
+#Contenu #Award1 .awardBox {
+	height: 187px;
+}
+
+#Contenu #Award2 .awardBox {
+	height: 141px;
+}
+
+#Contenu #Award3 .awardBox {
+	height: 151px;
+}
+
+#Contenu #Award4 .awardBox {
+	height: 182px;
+}
+
+#Contenu #Award5 .awardBox {
+	height: 152px;
+}
+
+#Contenu #Award6 .awardBox {
+	height: 210px;
+}
+
+#Contenu #Previous1 .previousBox {
+	height: 156px;
+}
+
+#Contenu #Previous2 .previousBox {
+	height: 168px;
+}
+
+#Contenu #Previous3 .previousBox {
+	height: 138px;
+}
+
+#Contenu #Previous4 .previousBox {
+	height: 150px;
+}
+
+#Contenu #Previous5 .previousBox {
+	height: 156px;
+}
+
+#Contenu #Previous6 .previousBox {
+	height: 149px;
+}
+
+#Contenu #Previous7 .previousBox {
+	height: 136px;
+}
+*/
+
+#Contenu #AwardYear a{
+	display:block;
+	width:200px;
+	/*height:100%;*/
+	text-align:center;
+	padding:5px;
+	margin:8px 0 0 10px;
+}
+
+/* Bloc 5 etapes */
+#Contenu .fullTextBox .processBox {
+	margin-top: 15px;
+	padding: 0px;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+#Contenu .fullTextBox .processBox li {
+	margin-left: 40px;
+	float: left;
+	display: inline;
+}
+
+#Contenu .fullTextBox .processBox .proPremier {
+	margin-left: 0px;
+}
+
+#Contenu .fullTextBox .processBox li .proCadre {
+	margin-bottom: 5px;
+	padding-left: 5px;
+	position: relative;
+	width: 131px;
+	height: 131px;
+	text-align: left;
+}
+
+#Contenu .fullTextBox .processBox li .proNumber {
+	display: block;
+}
+
+#Contenu .fullTextBox .processBox li .proText {
+	position: absolute;
+	bottom: 5px;
+}
+
+/* Bloc Checkbox */
+#Contenu .fullTextBox .choixBox {
+	padding: 0px;
+	list-style-type: none;
+}
+
+#Contenu .fullTextBox .choixBox li {
+	margin-left: 6px;
+	padding: 3px 8px 0px 8px;
+	float: left;
+	width: 120px;
+	height: 77px;
+	display: inline;
+}
+
+#Contenu .fullTextBox .choixBox .choixPremier {
+	margin-left: 0px;
+}
+
+/* Bloc choix fichier */
+input[type="file"] {
+  background-color:white; 
+  font:14px Arial, Helvetica, sans-serif; 
+  color:#3287C8;
+}
+
+/* Bloc backOffice */
+#Contenu #Extract{
+	margin-top : 30px;
+}
+
+/* Pied de page */
+#PiedPage {
+	padding-left:50px;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#PiedPage .colGauche{
+	text-decoration : none;
+	margin-top:5px;
+}
+
+#PiedPage .piedContenu {
+	position:relative;
+	width:870px;
+	height: 25px;
+	padding: 0px 0px 0px 10px;
+}
+
+#PiedPageImage{
+	position:absolute;
+	right: -30px;
+	bottom:0px;
+}
+
+* html #PiedPageImage{
+	bottom:-1px;
+}
