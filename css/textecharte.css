@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* Palette de couleur */
+.txtAzur {
+	color: #00A3DA;
+}
+
+.bgAzur {
+	background-color: #00A3DA;
+}
+
+.txtBlanc {
+	color: #FFFFFF;
+}
+
+.bgBlanc {
+	background-color: #FFFFFF;
+}
+
+.txtBleu {
+	color: #57538E;
+}
+
+.txtBleuFonce {
+	color: #075C71;
+}
+
+.txtBleuMarine{
+	color: #022540;
+}
+
+.bgBleu {
+	background-color: #57538E;
+}
+
+.bgBleuSurvol {
+	background : #18A5D6;
+}
+
+.txtBordeau {
+	color: #860B2A;
+}
+
+.txtBleuClair {
+	color: #18A5D6;
+}
+
+.bgBordeau {
+	background-color: #860B2A;
+}
+
+.txtGris {
+	color: #7D7D7D;
+}
+
+.bgGris {
+	background-color: #7D7D7D;
+}
+
+.txtGrisFonce {
+	color: #8D9AA2;
+}
+
+.bgGrisFonce {
+	background-color: #8D9AA2;
+}
+
+.bgBleuFonce{
+	background-color: #022540;
+}
+
+.txtGrisPale {
+	color: #ECECEC;
+}
+
+.bgGrisPale {
+	background-color: #ECECEC;
+}
+
+.bgGrisTresClair{
+	background-color: #FAF9F7;
+}
+
+.txtOrange {
+	color: #DA6935;
+}
+
+.bgOrange {
+	background-color: #DA6935;
+}
+
+.txtVert {
+	color: #61AB3E;
+}
+
+.bgVert {
+	background-color: #61AB3E;
+}
+
+.txtVertPale {
+	color: #B9D23F;
+}
+
+.bgVertPale {
+	background-color: #B9D23F;
+}
+
+.txtViolet{
+	color: #502C75;
+}
+
+.txtRose{
+	color: #E377A3 ;
+}
+
+.txtRouge{
+	color: #CA2137;
+}
+
+.txtVertClair{
+	color: #B8D258 ;	
+}
+
+.txtBeige{
+	color: #DAC190 ;
+}
+
+.noTextDeco{
+	text-decoration:none;
+}
+
+/* Charte texte */
+.txt9px {
+	font-size: 9px;
+	line-height: 12px;
+}
+
+.txt10px {
+	font-size: 10px;
+	line-height: 14px;
+}
+
+.txt11px {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.txt12px {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.txt14px {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.txt15px {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.txt16px {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.txt17px {
+	font-size: 17px;
+	line-height: 22px;
+}
+
+.txt18px {
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.txt19px {
+	font-size: 19px;
+	line-height: 24px;
+}
+
+.txt20px {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.txt22px {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.txt25px {
+	font-size: 25px;
+	line-height: 32px;
+}
+
+.txt30px {
+	font-size: 30px;
+	line-height: 38px;
+}
+
+.txt48px{
+	font-size: 48px;
+	line-height: 57px;
+}
+
+.txtShadow{
+	text-shadow: 2px 5px 3px rgba(0,0,0, 0.5);
+}
+
+.txtDroite {
+	text-align: right;
+}
+
+.txtCentre {
+	text-align: center;
+}
+
+.txtGras{
+	font-weight: bold;
+}
+
+.txtCapital {
+	text-transform: uppercase;
+}
+
+.textUnderline{
+	text-decoration: underline;
+}
+
+/* Titres personnalises */

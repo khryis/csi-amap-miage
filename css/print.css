@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* Elements generaux */
+input, select, textarea {
+	border: 1px solid #000000;
+}
+
+/* Corps de page */
+#CadrePage {
+	color: #000000;
+	background: transparent;
+}
+
+/* Entete de page */
+#Entete {
+	display: none;
+}
+
+/* Zone de contenu */
+#Contenu {
+	background: transparent;
+}
+
+#Contenu h1, #Contenu h2, #Contenu h3, #Contenu p, #Contenu ul {
+	padding-left: 15px;
+	width: 65%;
+}
+
+#Contenu ul {
+	padding-left: 30px;
+}
+
+#Contenu ul li span {
+	color: #000000;
+}
+
+/* Menu de gauche */
+#Contenu #MenuGauche {
+	display: none;
+}
+
+/* Titres personnalises */
+#Contenu .titrePage {
+	padding-left: 15px;
+}
+
+#Contenu .titreLigneBleu, #Contenu .titreLigneBordeau, #Contenu .titreLigneOrange, #Contenu .titreLigneVert, #Contenu .titreLigneVertPale {
+	padding-left: 15px;
+	background: transparent;
+}
+
+#Contenu .titreCacheBleu, #Contenu .titreCacheBordeau, #Contenu .titreCacheOrange, #Contenu .titreCacheVert, #Contenu .titreCacheVertPale {
+	background: transparent;
+}
+
+#Contenu .cacheFake {
+	display: none;
+}
+
+/* Bloc specifique */
+#Contenu .espaceBox {
+	background: transparent;
+}
+
+#Contenu .bgMotif {
+	background: transparent;
+}
+
+#Contenu #Award4, #Contenu #Previous4 {
+	page-break-after: always;
+}
+
+/* Bloc Edito Home */
+#Contenu .homeBox {
+	padding-left: 15px;
+}
+
+#Contenu .homeBox a {
+	left: 3%;
+}
+
+/* Bloc texte sous-titre */
+#Contenu .fullTextBox {
+	margin-left: 15px;
+	width: 60%;
+}
+
+#Contenu .fullTextBox h3, #Contenu .fullTextBox p, #Contenu .fullTextBox ul {
+	width: 92%;
+}
+
+#Contenu .fullTextBox .awardBox, #Contenu .fullTextBox .previousBox {
+	width: 67%;
+	background: transparent;
+}
+
+#Contenu #Award1 .awardBox, #Contenu #Award2 .awardBox, #Contenu #Award3 .awardBox, #Contenu #Award4 .awardBox, #Contenu #Award5 .awardBox, #Contenu #Award6 .awardBox, #Contenu #Previous1 .previousBox, #Contenu #Previous2 .previousBox, #Contenu #Previous3 .previousBox, #Contenu #Previous4 .previousBox, #Contenu #Previous5 .previousBox, #Contenu #Previous6 .previousBox, #Contenu #Previous7 .previousBox {
+	height: auto;
+}
+
+#Contenu #Award1 .txtDroite, #Contenu #Award2 .txtDroite, #Contenu #Award3 .txtDroite, #Contenu #Award4 .txtDroite, #Contenu #Award5 .txtDroite, #Contenu #Award6 .txtDroite, #Contenu #Previous1 .txtDroite, #Contenu #Previous2 .txtDroite, #Contenu #Previous3 .txtDroite, #Contenu #Previous4 .txtDroite, #Contenu #Previous5 .txtDroite, #Contenu #Previous6 .txtDroite, #Contenu #Previous7 .txtDroite {
+	display: none;
+}
+
+/* Bloc 5 etapes */
+#Contenu .fullTextBox .processBox {
+	margin-top: 0px;
+	padding: 4px 0 4px 25px;
+	text-align: left;
+	list-style-type: disc;
+}
+
+#Contenu .fullTextBox .processBox li {
+	margin-left: 0px;
+	float: none;
+	display: list-item;
+}
+
+#Contenu .fullTextBox .processBox li .proCadre {
+	padding-left: 0px;
+	position: static;
+	width: auto;
+	height: auto;
+	background: transparent;
+}
+
+#Contenu .fullTextBox .processBox li .proText {
+	position: static;
+}
+
+/* Bloc Checkbox */
+#Contenu .fullTextBox .choixBox li {
+	padding: 0px;
+	width: 75px;
+	height: auto;
+	background: transparent;
+}
+
+/* Formulaire */
+#Contenu #FormNomination {
+	page-break-before: always;
+}
+
+#Contenu #FormNomination #NominatorBox {
+	width: 55%;
+}
+
+#Contenu #FormNomination .choixBox label, #Contenu #FormNomination .choixBox .ligne2, #Contenu #FormNomination .choixBox .ligne3 {
+	padding-top: 2px;
+	height: 48px;
+}
+
+#Contenu #FormNomination #Description {
+	height: auto;
+}
+
+#Contenu #FormNomination #FileAttacheBox {
+	width: 60%;
+	background: transparent;
+}
+
+#Contenu #FormNomination #FileAttacheBox .colGauche, #Contenu #FormNomination #FileAttacheBox .colDroite {
+	width: 40%;
+}
+
+#Contenu #FormNomination #ValidBox {
+	display: none;
+}
+
+/* Pied de page */
+#PiedPage {
+	display: none;
+}
